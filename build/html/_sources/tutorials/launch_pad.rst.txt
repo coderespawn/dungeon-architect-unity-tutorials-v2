@@ -3,11 +3,6 @@ Launch Pad Window
 
 Use the Launch Pad window to setup new dungeon scenes, browse the samples, clone from templates and much more
 
-.. figure:: /images/tutorial/03/02.jpg
-   :align: center
-   
-   Dungeon Architect Launch Pad Window
-
 Open Launch Pad
 ---------------
 
@@ -37,3 +32,32 @@ Use the navigation bar on the top to go back to a previous page. This is useful 
 
 Builder Templates
 -----------------
+
+.. figure:: /images/tutorial/03/02.jpg
+   :align: center
+   
+   Dungeon Architect - List of Builders
+
+
+Dungeon Architect supports many different types of dungeon layout methods and is designed in a way that new layout methods can be easily added in the future
+
+These layout methods are called `Dungeon Builders` or **Builders** in short
+
+This section lets you create a new scene preconfigured with one of the builder templates.  Click on any of the builders. In the next screen, click the ``Clone Scene`` button
+
+.. figure:: /images/tutorial/03/06.jpg
+   :align: center
+
+
+This will create a new scene based on the template, fully configured with the appropriate dungeon.  It will also clone a starting theme file (and any other flow graph assets) and set everything up.  
+
+
+
+Choose a folder to saved your scene file.  Once saved, the launcher would do the following:
+
+* Open the new scene
+* Open any theme editor windows associated with the referenced assets (Theme Editor, Flow Graph Editors etc)
+* Select the dungeon game object (so you see the properties in the inspector by default)
+
+
+

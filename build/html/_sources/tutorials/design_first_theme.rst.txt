@@ -248,6 +248,29 @@ You can follow the same method to create another type of decoration (e.g. MyWind
 .. figure:: /images/tutorial/02/33.jpg
    :align: center
 
+Align with Offset
+^^^^^^^^^^^^^^^^^
+
+Dungeon Architect can adapt to any modular asset regardless of the prefab pivot position.  If the pivots are off, you can always adjust them from the Offset section of the node's properties
+
+Sometimes, it is difficult to line up the ground node, as there is no point of reference to compare with. 
+
+In that case, turn on Debug Draw and build the dungeon. 
+
+.. figure:: /images/tutorial/02/34.png
+   :align: center
+
+
+.. figure:: /images/tutorial/02/35.jpg
+   :align: center
+
+This ground asset has its pivot on the corner instead of the center.   We'll add an offset of position ``(-2, 0, -2)`` to fix it and align with the debug drawn boundaries
+
+.. figure:: /images/tutorial/02/36.jpg
+   :align: center
+
+
+It is important to first align the ground mesh and then use that as a reference to align your walls and fences.  If the ground is not aligned correctly, the rest will also not align (since you will be using an incorrect point of reference for aligning the rest)
 
 Recap
 ^^^^^

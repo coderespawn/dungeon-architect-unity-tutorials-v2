@@ -94,6 +94,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#add-windows">Add Windows</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#add-wall-decorations">Add Wall Decorations</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#marker-emitters">Marker Emitters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#align-with-offset">Align with Offset</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#recap">Recap</a></li>
 </ul>
 </li>
@@ -344,6 +345,23 @@
 <div class="figure align-center">
 <img alt="../_images/33.jpg" src="../_images/33.jpg" />
 </div>
+</div>
+<div class="section" id="align-with-offset">
+<h3>Align with Offset<a class="headerlink" href="#align-with-offset" title="Permalink to this headline">¶</a></h3>
+<p>Dungeon Architect can adapt to any modular asset regardless of the prefab pivot position.  If the pivots are off, you can always adjust them from the Offset section of the node’s properties</p>
+<p>Sometimes, it is difficult to line up the ground node, as there is no point of reference to compare with.</p>
+<p>In that case, turn on Debug Draw and build the dungeon.</p>
+<div class="figure align-center">
+<img alt="../_images/34.png" src="../_images/34.png" />
+</div>
+<div class="figure align-center">
+<img alt="../_images/35.jpg" src="../_images/35.jpg" />
+</div>
+<p>This ground asset has its pivot on the corner instead of the center.   We’ll add an offset of position <code class="docutils literal notranslate"><span class="pre">(-2,</span> <span class="pre">0,</span> <span class="pre">-2)</span></code> to fix it and align with the debug drawn boundaries</p>
+<div class="figure align-center">
+<img alt="../_images/36.jpg" src="../_images/36.jpg" />
+</div>
+<p>It is important to first align the ground mesh and then use that as a reference to align your walls and fences.  If the ground is not aligned correctly, the rest will also not align (since you will be using an incorrect point of reference for aligning the rest)</p>
 </div>
 <div class="section" id="recap">
 <h3>Recap<a class="headerlink" href="#recap" title="Permalink to this headline">¶</a></h3>
