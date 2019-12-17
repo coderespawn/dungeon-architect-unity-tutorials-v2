@@ -120,9 +120,9 @@ We have two wall meshes in the samples folder
 .. figure:: /images/tutorial/02/15.jpg
    :align: center
 
-The other one (``Wall02``) has a window. Lets configure the theme to sometimes use this second mesh so we have windows
+The other one (``Wall2``) has a window. Lets configure the theme to sometimes use this second mesh so we have windows
 
-Drag drop ``Wall02`` prefab on to the theme editor and place it **before** the existing wall prefab node
+Drag drop ``Wall2`` prefab on to the theme editor and place it **before** the existing wall prefab node
 
 .. figure:: /images/tutorial/02/16.jpg
    :align: center
@@ -154,11 +154,108 @@ Add Wall Decorations
 
 There's a photo frame prefab we'd like to attach to every wall
 
+.. figure:: /images/tutorial/02/20.jpg
+   :align: center
+   
+Drag drop this prefab to the theme editor **before** the two existing nodes and link it to the ``Wall`` marker node
+
+.. figure:: /images/tutorial/02/21.jpg
+   :align: center
 
 
+This will cause all the walls to disappear and be replaced with this photo frame
+
+.. figure:: /images/tutorial/02/22.jpg
+   :align: center
+
+This is because once the photo frame was selected, the execution stopped and the the wall nodes further down the line were not executed.    
+
+Selected the photo frame and uncheck the flag "Consume on Attach".  This will cause the execution to continue further even though this node was selected by the theming engine
 
 
+.. figure:: /images/tutorial/02/23.jpg
+   :align: center
+   
 
+Lets adjust the offset of the photo frame (position and rotation) to make it properly align with the inner walls
+
+Select the photo frame node and change the position to ``(0, 2, -0.22)`` and rotation to ``(0, 180, 0)``
+
+.. figure:: /images/tutorial/02/24.png
+   :align: center
+   
+
+The photo frame is aligned with the walls
+
+.. figure:: /images/tutorial/02/25.jpg
+   :align: center
+
+
+Marker Emitters
+^^^^^^^^^^^^^^^
+
+We have an issue with the photo frames. They also spawn near windows
+
+.. figure:: /images/tutorial/02/26.jpg
+   :align: center
+
+
+``Marker Emitters`` allow you to emit marker names from any of your dropped prefab nodes.  This means, we can define a new marker node (e.g. ``MyWallDeco``) and then emit that marker from the wall node that doesn't have a window (``Wall1`` prefab).  All our wall decorations can now go under this ``MyWallDeco`` marker and it will show up only near solid walls
+
+
+Right click on an empty area in the theme editor and select ``Add Marker Node``
+
+.. figure:: /images/tutorial/02/27.png
+   :align: center
+
+
+Select the node and change its name to ``MyWallDeco``
+
+
+.. figure:: /images/tutorial/02/28.png
+   :align: center
+
+
+Break the link to the photo frame
+
+.. figure:: /images/tutorial/02/29.png
+   :align: center
+
+
+Connect this under ``MyWallDeco`` marker node.  All the future wall decorations can also go under this marker
+
+.. figure:: /images/tutorial/02/30.png
+   :align: center
+
+
+Now emit this marker from the wall node that doesn't contain a window
+
+Drag a link out of the bottom of the solid wall prefab node and release the mouse in an empty area
+
+
+.. figure:: /images/tutorial/02/31.png
+   :align: center
+
+
+.. figure:: /images/tutorial/02/32.png
+   :align: center
+
+
+You can follow the same method to create another type of decoration (e.g. MyWindowDeco) and emit it from under the windowed wall node. In this example, I've added a flower pot in the windows
+
+.. figure:: /images/tutorial/02/33.jpg
+   :align: center
+
+
+Recap
+^^^^^
+In this section we learnt the following:
+
+* *Probablity* - Controls the percentage chance of a node being selected.  A value of 1 means 100% selection chance. A value of 0.25 means 25% selection chance
+* *Execution Order* - The theme engine executes all the nodes under a marker node from left to right. If it selects a certain node, it stops executing, unless the ``Consume on Attach`` flag is unchecked
+* *Marker Emitters* - You can create complex hierarchies with your own marker nodes, giving you more freedom to decorate your dungeons
+ 
+ 
 
 
 
