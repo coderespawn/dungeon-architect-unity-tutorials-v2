@@ -52,6 +52,18 @@ Select the ``DungeonGrid`` game object and click the ``Build Dungeon`` button in
    :align: center
 
 
+Randomize Dungeon
+-----------------
+
+Select the ``DungeonGrid`` game object and change the Seed value in the configuration.  Changing this value will create a dungeon with a different layout
+
+
+.. figure:: /images/tutorial/01/rand_dungeon.png
+   :align: center
+
+Click ``Build Dungeon`` button to rebuild the dungeon with the new seed
+
+
 Organization
 ------------
 
@@ -65,7 +77,7 @@ Lets destroy this current dungeon, configure it for better organization and then
 Destroy Existing Dungeon
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Search for ``dungeon`` on the hierarchy filter
+Search for ``dungeon`` on the hierarchy search box
 
 .. figure:: /images/tutorial/01/org02.png
    :align: center
@@ -82,7 +94,7 @@ Clear out the search text box in the hierarchy.  Your hierarchy should now look 
 Configure Parent Object
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Create an empty Game Object.  All our dungeon items will go inside this
+Create an empty Game Object.  All our dungeon items will go inside this parent object
 
 .. figure:: /images/tutorial/01/create_empty.png
    :align: center
@@ -90,14 +102,44 @@ Create an empty Game Object.  All our dungeon items will go inside this
    Create an empty game object
 
 
-* Rename the object (e.g. ``Dungeon Items``)
-* Select it and reset the transform
-* Make sure the object is set to static
+Rename the parent object (e.g. ``Dungeon Items``)
+
+.. figure:: /images/tutorial/01/org05.png
+   :align: center
+   
+   
+Select the parent object and **Reset the transform**
+
+.. figure:: /images/tutorial/01/org06.png
+   :align: center
+
+.. figure:: /images/tutorial/01/org07.png
+   :align: center
 
 
+Select the parent object and set it to **static**
+
+.. figure:: /images/tutorial/01/org08.png
+   :align: center
 
 
+Assign the parent object to the GridDungeon game object
 
+.. figure:: /images/tutorial/01/org09.png
+   :align: center
+   
+
+Rebuild Dungeon
+^^^^^^^^^^^^^^^
+
+Select the GridDungeon game object and click ``Build Dungeon``
+
+All your dungeon game objects will be organized under the parent object
+
+.. figure:: /images/tutorial/01/org10.png
+   :align: center
+   
+   
  
 
 

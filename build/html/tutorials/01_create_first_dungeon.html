@@ -87,9 +87,11 @@
 <li class="toctree-l2"><a class="reference internal" href="#setup-dungeon-prefab">Setup Dungeon Prefab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assign-theme">Assign Theme</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#build-dungeon">Build Dungeon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#randomize-dungeon">Randomize Dungeon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#organization">Organization</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#destroy-existing-dungeon">Destroy Existing Dungeon</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#configure-parent-object">Configure Parent Object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rebuild-dungeon">Rebuild Dungeon</a></li>
 </ul>
 </li>
 </ul>
@@ -206,6 +208,14 @@
 <img alt="../_images/candy_dungeon.jpg" src="../_images/candy_dungeon.jpg" />
 </div>
 </div>
+<div class="section" id="randomize-dungeon">
+<h2>Randomize Dungeon<a class="headerlink" href="#randomize-dungeon" title="Permalink to this headline">¶</a></h2>
+<p>Select the <code class="docutils literal notranslate"><span class="pre">DungeonGrid</span></code> game object and change the Seed value in the configuration.  Changing this value will create a dungeon with a different layout</p>
+<div class="figure align-center">
+<img alt="../_images/rand_dungeon.png" src="../_images/rand_dungeon.png" />
+</div>
+<p>Click <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Dungeon</span></code> button to rebuild the dungeon with the new seed</p>
+</div>
 <div class="section" id="organization">
 <h2>Organization<a class="headerlink" href="#organization" title="Permalink to this headline">¶</a></h2>
 <p>All the dungeon objects are created on the root hierarchy and makes it difficult to organize.   We’ll configure it so all objects are spawned under a certain game object</p>
@@ -215,7 +225,7 @@
 <p>Lets destroy this current dungeon, configure it for better organization and then rebuild</p>
 <div class="section" id="destroy-existing-dungeon">
 <h3>Destroy Existing Dungeon<a class="headerlink" href="#destroy-existing-dungeon" title="Permalink to this headline">¶</a></h3>
-<p>Search for <code class="docutils literal notranslate"><span class="pre">dungeon</span></code> on the hierarchy filter</p>
+<p>Search for <code class="docutils literal notranslate"><span class="pre">dungeon</span></code> on the hierarchy search box</p>
 <div class="figure align-center">
 <img alt="../_images/org02.png" src="../_images/org02.png" />
 </div>
@@ -227,16 +237,38 @@
 </div>
 <div class="section" id="configure-parent-object">
 <h3>Configure Parent Object<a class="headerlink" href="#configure-parent-object" title="Permalink to this headline">¶</a></h3>
-<p>Create an empty Game Object.  All our dungeon items will go inside this</p>
+<p>Create an empty Game Object.  All our dungeon items will go inside this parent object</p>
 <div class="figure align-center" id="id1">
 <img alt="../_images/create_empty.png" src="../_images/create_empty.png" />
 <p class="caption"><span class="caption-text">Create an empty game object</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<ul class="simple">
-<li><p>Rename the object (e.g. <code class="docutils literal notranslate"><span class="pre">Dungeon</span> <span class="pre">Items</span></code>)</p></li>
-<li><p>Select it and reset the transform</p></li>
-<li><p>Make sure the object is set to static</p></li>
-</ul>
+<p>Rename the parent object (e.g. <code class="docutils literal notranslate"><span class="pre">Dungeon</span> <span class="pre">Items</span></code>)</p>
+<div class="figure align-center">
+<img alt="../_images/org05.png" src="../_images/org05.png" />
+</div>
+<p>Select the parent object and <strong>Reset the transform</strong></p>
+<div class="figure align-center">
+<img alt="../_images/org06.png" src="../_images/org06.png" />
+</div>
+<div class="figure align-center">
+<img alt="../_images/org07.png" src="../_images/org07.png" />
+</div>
+<p>Select the parent object and set it to <strong>static</strong></p>
+<div class="figure align-center">
+<img alt="../_images/org08.png" src="../_images/org08.png" />
+</div>
+<p>Assign the parent object to the GridDungeon game object</p>
+<div class="figure align-center">
+<img alt="../_images/org09.png" src="../_images/org09.png" />
+</div>
+</div>
+<div class="section" id="rebuild-dungeon">
+<h3>Rebuild Dungeon<a class="headerlink" href="#rebuild-dungeon" title="Permalink to this headline">¶</a></h3>
+<p>Select the GridDungeon game object and click <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Dungeon</span></code></p>
+<p>All your dungeon game objects will be organized under the parent object</p>
+<div class="figure align-center">
+<img alt="../_images/org10.png" src="../_images/org10.png" />
+</div>
 </div>
 </div>
 </div>
