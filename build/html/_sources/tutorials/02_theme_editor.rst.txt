@@ -83,6 +83,8 @@ For the live preview to work, make sure the "Realtime Update" button is enabled 
 .. figure:: /images/tutorial/02/09.jpg
    :align: center
 
+Another criteria for the live preview to work is that a dungeon in the scene should reference the theme that is currently being edited in the theme editor
+
 Add More Prefabs
 ^^^^^^^^^^^^^^^^
 
@@ -122,13 +124,13 @@ We have two wall meshes in the samples folder
 
 The other one (``Wall2``) has a window. Lets configure the theme to sometimes use this second mesh so we have windows
 
-Drag drop ``Wall2`` prefab on to the theme editor and place it **before** the existing wall prefab node
+Drag drop ``Wall2`` prefab on to the theme editor and place it **before** (left of) the existing wall prefab node
 
 .. figure:: /images/tutorial/02/16.jpg
    :align: center
 
 
-When you connect this to the ``Wall`` marker node, you'll notice it has picked up the first node for all the walls
+When you connect this to the ``Wall`` marker node, you'll notice it has picked up the window node for all the walls
 
 .. figure:: /images/tutorial/02/17.jpg
    :align: center
