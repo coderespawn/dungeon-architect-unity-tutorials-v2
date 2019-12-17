@@ -61,3 +61,71 @@ Choose a folder to saved your scene file.  Once saved, the launcher would do the
 
 
 
+Samples
+-------
+
+.. figure:: /images/tutorial/03/07.jpg
+   :align: center
+
+There are tons of samples to explore.  Select a sample you like and perform one of the following actions
+
+* **Open Scene**: Opens the sample scene (usually under DungeonArchitect_Samples folder)
+* **Open Folder**: Opens the folder containing the scene
+* **Clone Scene**: Clone a scene and also clone over the referenced assets (themes, flow graphs etc) so you can modify them without affecting the sample scene
+* **Watch Demo**: Watch a video, if it exists
+
+.. figure:: /images/tutorial/03/08.jpg
+   :align: center
+
+
+Flow Graph Templates
+--------------------
+
+.. figure:: /images/tutorial/03/09.jpg
+   :align: center
+   
+Flow graphs allow you to control the flow of your dungeon (more on this in the later tutorial sections).   This section contains a list of flow graph templates you can use as a starting point for your project
+
+.. figure:: /images/tutorial/03/10.jpg
+   :align: center
+   
+   Clone Grid Flow Graphs
+
+
+.. figure:: /images/tutorial/03/11.jpg
+   :align: center
+   
+   Clone Snap Flow Graphs
+
+
+
+Theme Templates
+---------------
+
+Clone one of the many themes and use it in your project or as a starting point for a new theme
+
+.. figure:: /images/tutorial/03/12.jpg
+   :align: center
+   
+   Theme template browser
+
+Select a theme and clone it
+
+.. figure:: /images/tutorial/03/13.jpg
+   :align: center
+   
+
+There's also a category on `External Themes`, the ones that use external paid art assets from the Asset Store.  You can use these themes if you also own the art asset.    
+
+.. figure:: /images/tutorial/03/14.jpg
+   :align: center
+   
+
+.. figure:: /images/tutorial/03/15.jpg
+   :align: center
+   
+
+
+
+
+
