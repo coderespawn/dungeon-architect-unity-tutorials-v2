@@ -130,6 +130,28 @@ Documentation
 
 Links to various online documentation, including this one
 
+.. figure:: /images/tutorial/03/16.png
+   :align: center
+   
+
+Support
+-------
+
+Reach the developers through any one of these channels. Interact with the community and the devs in Discord chat and forums or reach directly through email
+
+.. figure:: /images/tutorial/03/17.png
+   :align: center
+   
+
+News
+----
+
+Dungeon Architect News!  Find out whats new since the last update
+
+.. figure:: /images/tutorial/03/18.jpg
+   :align: center
+   
+   
 
 
 
