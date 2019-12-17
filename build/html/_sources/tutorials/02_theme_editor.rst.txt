@@ -149,6 +149,12 @@ Select the node you just dropped and change the probability to ``0.5`` (this wou
    Half the walls have windows
 
 
+Add Wall Decorations
+^^^^^^^^^^^^^^^^^^^^
+
+There's a photo frame prefab we'd like to attach to every wall
+
+
 
 
 
