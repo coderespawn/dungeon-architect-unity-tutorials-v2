@@ -1,4 +1,0 @@
-Launch Pad
-==========
-
-Body Content
