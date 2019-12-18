@@ -10,14 +10,14 @@ Welcome to Dungeon Architect Tutorials
    :maxdepth: 2
    :caption: Tutorials:
    
-   tutorials/create_first_dungeon
-   tutorials/design_first_theme
-   tutorials/launch_pad
-   tutorials/grid_flow_builder
-   tutorials/snap_flow_builder
-   tutorials/mario_builder
-   tutorials/simple_city_builder
-   tutorials/other_builders
-   tutorials/advanced_theming
-   tutorials/advanced_dungeon_concpets
+   create_first_dungeon
+   design_first_theme
+   launch_pad
+   grid_flow_builder
+   snap_flow_builder
+   mario_builder
+   simple_city_builder
+   other_builders
+   advanced_theming
+   advanced_dungeon_concpets
 
