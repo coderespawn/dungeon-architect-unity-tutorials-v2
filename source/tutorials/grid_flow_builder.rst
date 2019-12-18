@@ -158,6 +158,16 @@ The scene view should zoom in on the treasure chest
    :align: center
    
 
+Explore Grid Flow Graph
+^^^^^^^^^^^^^^^^^^^^^^^
+
+After you've built a dungeon in the editor (by hitting the play button on the top left), you can select each node and see how the dungeon layout was built, as shown in the lower preview panels
+
+.. figure:: /images/tutorial/04/flow_editor_node_preview.gif
+   :align: center
+   
+   Select a node to preview the build process
+
 
 
 Design a GridFlow Graph
@@ -174,7 +184,25 @@ Destroy the existing dungeon and clear out the Flow Asset that we assigned earli
    DungeonGridFlow game object properties
 
 
+Create a new Grid Flow asset from either the Create menu or the Main Menu
+
+.. figure:: /images/tutorial/04/18.png
+   :align: center
+   
+   Create Menu
 
 
+.. figure:: /images/tutorial/04/19.png
+   :align: center
+   
+   Main Menu
 
+
+Rename to something appropriate and double click the grid flow asset to open it in the editor
+
+We won't be needing the scene view for some time.  Dock the editor so we have more working area
+
+.. figure:: /images/tutorial/04/20.png
+   :align: center
+   
 
