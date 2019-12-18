@@ -175,6 +175,9 @@ Design a GridFlow Graph
 
 In the previous section, we used an existing Grid Flow graph. In this section, we'll design one ourselves.
 
+Setup
+^^^^^
+
 Destroy the existing dungeon and clear out the Flow Asset that we assigned earlier
 
 
