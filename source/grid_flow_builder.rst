@@ -350,4 +350,41 @@ Keep hitting Play for different results
    :align: center
 
 
+Create Treasure Room (Main)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We'll add a treasure room connected to the main branch
+
+Add a new node ``Layout Graph > Create Path`` and set it up as follows:
+
+.. figure:: /images/tutorial/04/37.png
+   :align: center
+
+.. figure:: /images/tutorial/04/36.png
+   :align: center
+
+.. figure:: /images/tutorial/04/38.png
+   :align: center
+
+
+Create Treasure Room (Alt)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We'll add another treasure room connected to the ``alt`` branch but keep the ``End On Path`` parameter empty so it doesn't connect back to anything:
+
+Add a new node ``Layout Graph > Create Path`` and set it up as follows:
+
+.. figure:: /images/tutorial/04/39.png
+   :align: center
+
+.. figure:: /images/tutorial/04/40.png
+   :align: center
+
+.. figure:: /images/tutorial/04/41.png
+   :align: center
+
+
+
+
+
 
