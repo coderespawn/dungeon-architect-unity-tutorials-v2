@@ -72,10 +72,24 @@ Move and scale it to cover a certain portion of the dungeon
    :align: center
    
    
-Select the theme override volume you just droped and inspect the properties and assign the DungeonGrid reference
+Select the theme override volume you just dropped and inspect the properties and assign the DungeonGrid reference
 
 .. figure:: /images/tutorial/06/08.png
    :align: center
+
+
+Navigate to ``Assets/DungeonArchitect_Samples/Demo_Theme_SimpleShapes/Themes`` and assign the theme ``Theme_Basic_White`` to the Theme Override Volume
+
+.. figure:: /images/tutorial/06/09.png
+   :align: center
+
+
+Click ``Rebuild Dungeon``
+
+
+.. figure:: /images/tutorial/06/10.jpg
+   :align: center
+   
 
 
 
