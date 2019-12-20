@@ -30,8 +30,8 @@ Continuing on the scene created in the section :doc:`design_first_theme`, open t
 * Both Rooms and Corridors have a ``Ground`` marker.   Rooms are surrounded by ``Wall`` markers while the corridors are surrounded by ``Fence`` marker
 
 
-Platform Volumes
-^^^^^^^^^^^^^^^^
+Platform Volume
+^^^^^^^^^^^^^^^
 Platform Volumes let you control the placement of the rooms or corridors.   You do this dropping in a platform volume on to the scene and resizing  / positioning it on the scene and you room will be built around it.
 
 Navigate to ``Asset/DungeonArchitect/Prefabs`` and drag drop the ``PlatformVolume`` prefab on to the scene
@@ -51,4 +51,32 @@ Click the button ``Rebuild Dungeon``
    :align: center
 
 Move the `Platform Volume` and scale it to control the position and size of your room. You can have multiple platform volumes in the scene. Check the samples in the Launch Pad for more examples
+
+
+Theme Override Volume
+^^^^^^^^^^^^^^^^^^^^^
+
+Theme Override Volumes let you apply another theme on certain portions of your dungeons that are covered by this volume.  These are useful for adding variations to your dungeons. 
+
+
+Navigate to ``Asset/DungeonArchitect/Prefabs`` and drag drop the ``ThemeOverrideVolume`` prefab on to the scene
+
+.. figure:: /images/tutorial/06/06.png
+   :align: center
+   
+
+Move and scale it to cover a certain portion of the dungeon
+
+
+.. figure:: /images/tutorial/06/07.jpg
+   :align: center
+   
+   
+Select the theme override volume you just droped and inspect the properties and assign the DungeonGrid reference
+
+.. figure:: /images/tutorial/06/08.png
+   :align: center
+
+
+
 
