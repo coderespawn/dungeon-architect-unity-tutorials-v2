@@ -17,14 +17,16 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Dungeon Architect'
+project = 'Dungeon Architect [Unity]'
 copyright = '2020, Code Respawn'
 author = 'Code Respawn'
 
 html_show_sourcelink = False
 
 
-
+# -- PDF configuration ---------------------------------------------------
+pdf_documents = [('index', u'rst2pdf', u'Dungeon Architect Tutorials [Unity]', u'Code Respawn'),]
+  
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
